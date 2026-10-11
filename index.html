@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>考研政治·时政热点日报｜2026 全年考点化整理</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== 顶部细条 ===== -->
+<div class="topbar">
+  <div class="inner">
+    <span>考研政治 · 时政热点日报</span>
+    <span class="tb-date">2026 年 10 月 10 日（周六）｜距 2027 考研初试 <b id="cdDays">--</b> 天</span>
+  </div>
+</div>
+
+<!-- ===== Hero ===== -->
+<header class="hero">
+  <div>
+    <div class="hero-kicker">POLITICS · 时政考点化日报</div>
+    <h1>2026 全年时政热点<br><span class="thin">考点化整理与命题分析</span></h1>
+    <div class="h-line"></div>
+    <p class="h-sub">覆盖考前一年（2025.12—2026.10）重大时政：两会与“十五五”纲要、中美元首会晤、金砖会晤、五中全会、世界人工智能合作组织、医疗保障法……每日自动更新，逐条拆解考点与答题要点。</p>
+    <p class="h-date">更新频率：每日 07:10 自动更新 ｜ 数据来源：新华社 / 人民日报 / 中国政府网 / 求是网等官方渠道</p>
+  </div>
+  <figure class="hero-fig">
+    <img src="assets/hero.jpg" alt="天安门与五星红旗插画">
+    <figcaption>2026 · 开局起步“十五五”</figcaption>
+  </figure>
+</header>
+
+<!-- ===== 导航 ===== -->
+<nav class="nav">
+  <div class="inner">
+    <span class="nav-logo">时政日报</span>
+    <a href="#year">年度总览</a>
+    <a href="#latest">最新速览</a>
+    <a href="#focus">本月焦点</a>
+    <a href="#graph">考点图谱</a>
+    <a href="#timeline">刻度线</a>
+    <a href="#quiz">模拟自测</a>
+    <a href="#archive">归档</a>
+  </div>
+</nav>
+
+<main>
+
+<!-- ===== 关键词检索 · 热点云图 ===== -->
+<section id="search">
+  <div class="sec-head">
+    <h2>关键词检索 · 热点云图</h2>
+    <span class="note">本地检索全部热点 · 一键网络搜索</span>
+  </div>
+  <div class="search-bar">
+    <input id="kwInput" type="text" placeholder="输入关键词，如：五中全会 / 中美 / 金砖 / 医保 / 全球南方…" autocomplete="off">
+    <button class="dl-btn primary" id="kwLocal">检索热点</button>
+    <button class="dl-btn" id="kwWeb">网络搜索 ›</button>
+    <span class="kw-count" id="kwCount"></span>
+  </div>
+  <div id="kwResults" class="search-results"></div>
+  <div class="cloud-box" id="cloudBox"></div>
+</section>
+
+<!-- ===== 年度时政总览 ===== -->
+<section id="year">
+  <div class="sec-head">
+    <h2>年度时政总览</h2>
+    <span class="note">2025.12 — 2026.10 · 逐月梳理</span>
+  </div>
+  <p class="sec-lead">考研政治时政考查范围约为考前一年。以下按月梳理本年度重大时政，星级代表命题价值：★★★★★ 极可能命题，★★★★ 重点掌握，★★★ 了解即可。<b>点击任意一条可打开详解：左侧原文、右侧批注讲解与多方归纳。</b></p>
+
+  <div class="dl-bar">
+    <span class="dl-label">热点整理下载</span>
+    <button class="dl-btn primary" id="dlMd">下载整理稿（Markdown）</button>
+    <button class="dl-btn" id="dlCsv">下载数据表（CSV）</button>
+    <button class="dl-btn" id="dlCopy">复制整理文本</button>
+    <span class="dl-hint" id="dlTip">支持导入笔记软件 / Excel</span>
+  </div>
+
+  <div id="yearList"></div>
+</section>
+
+<!-- ===== 最新速览 ===== -->
+<section id="latest">
+  <div class="sec-head">
+    <h2>最新速览</h2>
+    <span class="note">近两周热点 · 每日更新</span>
+  </div>
+  <p class="sec-lead">近两周命题价值最高的热点，点击可查看官方原文与考点批注。</p>
+  <ul class="year-list" id="latestList"></ul>
+</section>
+
+<!-- ===== 本月焦点·深度分析 ===== -->
+<section id="focus">
+  <div class="sec-head">
+    <h2>本月焦点 · 深度分析</h2>
+    <span class="note">事件 → 考点 → 命题角度 → 答题要点</span>
+  </div>
+  <p class="sec-lead">针对本阶段最高命题价值的热点做深度拆解，可直接作为论述题素材与背诵提纲。<b>点击任意焦点卡片可展开完整详解：多段原文、书本考点定位、批注讲解与关键金句。</b></p>
+
+  <!-- 焦点 1 -->
+  <article class="focus-card" data-key="wzqh">
+    <span class="f-more">展开完整详解 ›</span>
+    <div class="f-img"><img src="assets/meeting.jpg" alt="人民大会堂会场插画"></div>
+    <div class="f-body">
+      <div class="row-tags"><span class="subj hot">党建</span><span class="subj">五星</span></div>
+      <h3>二十届五中全会定档：持之以恒推进全面从严治党</h3>
+      <p class="f-lead">2026.09.21 中央政治局会议决定，来源：新华社</p>
+      <dl>
+        <dt>事件概述</dt>
+        <dd>二十届五中全会定于 <b>10 月 26 日至 29 日</b>在京召开，主要议程为审议《中共中央关于<b>持之以恒推进全面从严治党</b>若干重大问题的决定》。</dd>
+        <dt>考点链接</dt>
+        <dd>《新思想》第十四章全面从严治党；二十大报告“两个永远在路上”；党的建设总体布局。</dd>
+        <dt>命题角度</dt>
+        <dd>单选/多选考会议时间与主题；分析题考“全面从严治党是新时代党的自我革命的伟大实践”及“大党独有难题”。</dd>
+        <dt>答题要点</dt>
+        <dd>① 全面从严治党是“四个全面”战略布局的重要组成部分；② 核心是加强党的领导，基础在全面，关键在严，要害在治；③ 以自我革命精神跳出历史周期率。</dd>
+        <dt>关键金句</dt>
+        <dd class="quote"><i>“全面从严治党永远在路上，党的自我革命永远在路上。”</i></dd>
+      </dl>
+    </div>
+  </article>
+
+  <!-- 焦点 2 -->
+  <article class="focus-card" data-key="fm">
+    <span class="f-more">展开完整详解 ›</span>
+    <div class="f-img"><img src="assets/diplomacy.jpg" alt="国际合作地球插画"></div>
+    <div class="f-body">
+      <div class="row-tags"><span class="subj hot">外交</span><span class="subj">五星</span></div>
+      <h3>习近平对美国国事访问：建设性战略稳定关系</h3>
+      <p class="f-lead">2026.09.23—26，来源：新华社 / 光明网</p>
+      <dl>
+        <dt>事件概述</dt>
+        <dd>习近平 9 月 23 日至 26 日对美国进行国事访问，<b>9 月 24 日白宫会谈</b>，中美达成<b>八点成果共识</b>，首项即构建“基于尊重、公平、对等的<b>建设性战略稳定关系</b>”。</dd>
+        <dt>考点链接</dt>
+        <dd>《当代》大国关系与中美关系；新型国际关系；“相互尊重、公平正义、合作共赢”三原则。</dd>
+        <dt>命题角度</dt>
+        <dd>单选考共识内容；分析题考“中美关系是世界上最重要的双边关系之一”，谈合作共赢与底线思维。</dd>
+        <dt>答题要点</dt>
+        <dd>① 相互尊重是基础，公平正义是准则，合作共赢是目标；② 台湾问题是中美关系第一条不可逾越的红线；③ 中国始终致力于构建新型国际关系。</dd>
+        <dt>关键金句</dt>
+        <dd class="quote"><i>“地球足够大，容得下中美两国各自发展、共同繁荣。”</i></dd>
+      </dl>
+    </div>
+  </article>
+
+  <!-- 焦点 3 -->
+  <article class="focus-card" data-key="jb">
+    <span class="f-more">展开完整详解 ›</span>
+    <div class="f-img"><img src="assets/diplomacy.jpg" alt="全球南方合作插画"></div>
+    <div class="f-body">
+      <div class="row-tags"><span class="subj hot">外交</span><span class="subj">五星</span></div>
+      <h3>金砖第十八次会晤：开启第三个“金色十年”</h3>
+      <p class="f-lead">2026.09.12—13 新德里，来源：新华社 / 中国政府网</p>
+      <dl>
+        <dt>事件概述</dt>
+        <dd>习近平提出金砖合作<b>“四大先锋”</b>主张（创新、和平、互鉴、治理）与壮大全球南方<b>四点主张</b>，开启金砖第三个“金色十年”。</dd>
+        <dt>考点链接</dt>
+        <dd>《当代》南南合作与全球治理；“全球南方”崛起；人类命运共同体理念的多边实践。</dd>
+        <dt>命题角度</dt>
+        <dd>多选考“四大先锋”内容；分析题考金砖扩员的意义、全球南方的历史性崛起。</dd>
+        <dt>答题要点</dt>
+        <dd>① 金砖是新兴市场和发展中国家团结合作的重要平台；② 维护真正的多边主义，反对单边主义、保护主义；③ 推动全球治理朝着更加公正合理的方向发展。</dd>
+        <dt>关键金句</dt>
+        <dd class="quote"><i>“单弦不成音，独木不成林。”（2026世界人工智能大会主旨讲话）</i></dd>
+      </dl>
+    </div>
+  </article>
+
+  <!-- 焦点 4 -->
+  <article class="focus-card" data-key="gq">
+    <span class="f-more">展开完整详解 ›</span>
+    <div class="f-img"><img src="assets/hero.jpg" alt="天安门与国旗插画"></div>
+    <div class="f-body">
+      <div class="row-tags"><span class="subj hot">纪念</span><span class="subj">五星</span></div>
+      <h3>国庆 77 周年招待会：两大奇迹与中国式现代化</h3>
+      <p class="f-lead">2026.09.30，来源：求是网</p>
+      <dl>
+        <dt>事件概述</dt>
+        <dd>庆祝中华人民共和国成立 77 周年招待会举行，习近平发表讲话，强调“经济快速发展和社会长期稳定<b>两大奇迹</b>”。</dd>
+        <dt>考点链接</dt>
+        <dd>《史纲》新中国成立的意义；《新思想》中国式现代化；“两个确立”与“两个维护”。</dd>
+        <dt>命题角度</dt>
+        <dd>单选考“两大奇迹”；分析题考“中国式现代化是强国建设、民族复兴的唯一正确道路”。</dd>
+        <dt>答题要点</dt>
+        <dd>① 两大奇迹是中国共产党领导人民创造的；② 中国式现代化五个特征；③ 坚持党的领导是中国式现代化的本质要求。</dd>
+        <dt>关键金句</dt>
+        <dd class="quote"><i>“经济快速发展和社会长期稳定两大奇迹，是全党全国各族人民团结奋斗的结果。”</i></dd>
+      </dl>
+    </div>
+  </article>
+
+  <!-- 焦点 5 -->
+  <article class="focus-card" data-key="kj">
+    <span class="f-more">展开完整详解 ›</span>
+    <div class="f-img"><img src="assets/tech.jpg" alt="科技创新插画"></div>
+    <div class="f-body">
+      <div class="row-tags"><span class="subj">科技</span><span class="subj">四星</span></div>
+      <h3>中央本级科技支出预算 4264 亿元：科技自立自强加码</h3>
+      <p class="f-lead">2026.10.09 财政部报告，来源：财政部 / 新华社</p>
+      <dl>
+        <dt>事件概述</dt>
+        <dd>2026 年中央本级科技支出预算 <b>4264 亿元、同比增长 10%</b>，向基础研究与国家战略科技任务聚焦；央企研发经费连续四年破万亿。</dd>
+        <dt>考点链接</dt>
+        <dd>《新思想》高质量发展与高水平科技自立自强；创新是第一动力；“四个面向”。</dd>
+        <dt>命题角度</dt>
+        <dd>单选考数据；分析题考“加快实现高水平科技自立自强是推动高质量发展的必由之路”。</dd>
+        <dt>答题要点</dt>
+        <dd>① 科技自立自强是国家强盛之基、安全之要；② 强化国家战略科技力量，打好关键核心技术攻坚战；③ 统筹教育、科技、人才一体化发展。</dd>
+        <dt>关键金句</dt>
+        <dd class="quote"><i>“科技创新是引领发展的第一动力，是建设现代化经济体系的战略支撑。”</i></dd>
+      </dl>
+    </div>
+  </article>
+
+  <div class="memo-tip">
+    <b>冲刺提示：</b>五中全会（10.26—29）公报发布后为全年最大增量考点；中美元首会晤八点共识、金砖“四大先锋”为外交必背素材；医疗保障法为民生法治新法热点。建议将本页深度分析内容加入主观题背诵清单。
+  </div>
+</section>
+
+<!-- ===== 考点图谱 ===== -->
+<section id="graph">
+  <div class="sec-head">
+    <h2>考点图谱</h2>
+    <span class="note">全年领域分布 · 命题热度榜</span>
+  </div>
+  <div class="graph-grid">
+    <div class="panel">
+      <h4>全年领域分布（重点条数）</h4>
+      <div class="bar-chart" id="fieldChart"></div>
+      <p class="legend-note">外交互联与全球治理占比最高（8 条），其次为民生法治（5 条）；外交、党建、民生是本年命题主阵地，科技议题热度上升明显。</p>
+    </div>
+    <div class="panel">
+      <h4>命题热度榜</h4>
+      <div class="hot-list" id="hotList"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 时政刻度线 ===== -->
+<section id="timeline">
+  <div class="sec-head">
+    <h2>全年时政刻度线</h2>
+    <span class="note">2025.12 — 2026.10 · 点击节点查看详解</span>
+  </div>
+  <p class="sec-lead">全年关键节点按时间轴排列，<b>点击红色节点可展开对应热点的完整详解</b>（原文、完整总结、书本考点定位）。</p>
+  <ul class="tl" id="timeline"></ul>
+</section>
+
+<!-- ===== 考前备忘 ===== -->
+<section id="memo">
+  <div class="sec-head">
+    <h2>考前备忘</h2>
+    <span class="note">三个关键时间节点</span>
+  </div>
+  <div class="memo-grid">
+    <div class="memo-card">
+      <div class="m-top"><span class="m-day">15</span><span class="m-range">10 月</span></div>
+      <h4>2027 考研报名</h4>
+      <p>10 月 15 日至 24 日网上报名，逾期不再补报；初试 12 月 19 日至 20 日举行。</p>
+      <span class="m-badge">进行中</span>
+    </div>
+    <div class="memo-card">
+      <div class="m-top"><span class="m-day">26</span><span class="m-range">10 月</span></div>
+      <h4>二十届五中全会</h4>
+      <p>10 月 26 日至 29 日召开，公报与《决定》是考前半程最大时政增量，务必跟进。</p>
+      <span class="m-badge">即将召开</span>
+    </div>
+    <div class="memo-card">
+      <div class="m-top"><span class="m-day">19</span><span class="m-range">12 月</span></div>
+      <h4>考研初试</h4>
+      <p>政治初试当日，时政考查范围覆盖 2025 年 12 月至 2026 年 11 月，本页内容即核心范围。</p>
+      <span class="m-badge">倒计时冲刺</span>
+    </div>
+  </div>
+</section>
+
+<!-- ===== 模拟自测 ===== -->
+<section id="quiz">
+  <div class="sec-head">
+    <h2>模拟自测</h2>
+    <span class="note">点击选项即时判分 · 可重新作答</span>
+  </div>
+
+  <div class="quiz-item" data-answer="1">
+    <div class="quiz-q"><span class="qno">1</span><div>二十届五中全会的主要议程是审议（　）</div></div>
+    <div class="quiz-type">单选</div>
+    <div class="quiz-opts">
+      <button class="quiz-opt" data-v="0"><span>A. 《关于制定国民经济和社会发展第十六个五年规划的建议》</span><span class="mark">✓</span></button>
+      <button class="quiz-opt" data-v="1"><span>B. 《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》</span><span class="mark">✓</span></button>
+      <button class="quiz-opt" data-v="2"><span>C. 《关于进一步全面深化改革、推进中国式现代化的决定》</span><span class="mark">✓</span></button>
+      <button class="quiz-opt" data-v="3"><span>D. 《中共中央关于制定国民经济和社会发展第十五个五年规划的建议》</span><span class="mark">✓</span></button>
+    </div>
+    <div class="quiz-ans" data-explain="9 月 21 日中央政治局会议决定：二十届五中全会 10 月 26 日至 29 日召开，审议《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》。">解析：</div>
+    <button class="quiz-reset">重新作答</button>
+  </div>
+
+  <div class="quiz-item" data-answer="0,1">
+    <div class="quiz-q"><span class="qno">2</span><div>习近平在国庆 77 周年招待会讲话中强调的“两大奇迹”是指（　）</div></div>
+    <div class="quiz-type">多选</div>
+    <div class="quiz-opts">
+      <button class="quiz-opt" data-v="0"><span>A. 经济快速发展</span><span class="mark">✓</span></button>
+      <button class="quiz-opt" data-v="1"><span>B. 社会长期稳定</span><span class="mark">✓</span></button>
+      <button class="quiz-opt" data-v="2"><span>C. 科技自立自强</span><span class="mark">✓</span></button>
+      <button class="quiz-opt" data-v="3"><span>D. 文化繁荣兴盛</span><span class="mark">✓</span></button>
+    </div>
+    <div class="quiz-ans" data-explain="“经济快速发展和社会长期稳定两大奇迹”，是党领导人民创造的，也是中国式现代化的显著优势。C、D 表述本身成立，但不属于“两大奇迹”标准表述。">解析：</div>
+    <button class="quiz-reset">重新作答</button>
+  </div>
+
+  <div class="quiz-item" data-answer="0,1,2,3">
+    <div class="quiz-q"><span class="qno">3</span><div>习近平在金砖第十八次会晤上提出的“四大先锋”主张包括（　）</div></div>
+    <div class="quiz-type">多选</div>
+    <div class="quiz-opts">
+      <button class="quiz-opt" data-v="0"><span>A. 创新先锋</span><span class="mark">✓</span></button>
+      <button class="quiz-opt" data-v="1"><span>B. 和平先锋</span><span class="mark">✓</span></button>
+      <button class="quiz-opt" data-v="2"><span>C. 互鉴先锋</span><span class="mark">✓</span></button>
+      <button class="quiz-opt" data-v="3"><span>D. 治理先锋</span><span class="mark">✓</span></button>
+    </div>
+    <div class="quiz-ans" data-explain="金砖合作“四大先锋”：创新先锋、和平先锋、互鉴先锋、治理先锋。开启金砖第三个“金色十年”。">解析：</div>
+    <button class="quiz-reset">重新作答</button>
+  </div>
+
+  <div class="quiz-item" data-answer="2">
+    <div class="quiz-q"><span class="qno">4</span><div>2026 年 9 月中美元首会晤达成的八点成果共识，第一项是（　）</div></div>
+    <div class="quiz-type">单选</div>
+    <div class="quiz-opts">
+      <button class="quiz-opt" data-v="0"><span>A. 重启经贸磋商机制</span><span class="mark">✓</span></button>
+      <button class="quiz-opt" data-v="1"><span>B. 加强气候变化合作</span><span class="mark">✓</span></button>
+      <button class="quiz-opt" data-v="2"><span>C. 构建“基于尊重、公平、对等的建设性战略稳定关系”</span><span class="mark">✓</span></button>
+      <button class="quiz-opt" data-v="3"><span>D. 恢复两军高层对话</span><span class="mark">✓</span></button>
+    </div>
+    <div class="quiz-ans" data-explain="中美八点成果共识第一项即构建“基于尊重、公平、对等的建设性战略稳定关系”，为两国关系定下基调。">解析：</div>
+    <button class="quiz-reset">重新作答</button>
+  </div>
+
+  <div class="quiz-item" data-answer="0">
+    <div class="quiz-q"><span class="qno">5</span><div>“十五五”规划纲要明确的 20 项主要指标中，重大工程项目为（　）</div></div>
+    <div class="quiz-type">单选</div>
+    <div class="quiz-opts">
+      <button class="quiz-opt" data-v="0"><span>A. 6 方面 109 项</span><span class="mark">✓</span></button>
+      <button class="quiz-opt" data-v="1"><span>B. 7 方面 120 项</span><span class="mark">✓</span></button>
+      <button class="quiz-opt" data-v="2"><span>C. 5 方面 100 项</span><span class="mark">✓</span></button>
+      <button class="quiz-opt" data-v="3"><span>D. 8 方面 132 项</span><span class="mark">✓</span></button>
+    </div>
+    <div class="quiz-ans" data-explain="“十五五”规划纲要部署 6 方面 109 项重大工程项目；提出到 2035 年人均 GDP 比 2020 年翻一番、达到中等发达国家水平。">解析：</div>
+    <button class="quiz-reset">重新作答</button>
+  </div>
+
+  <div class="quiz-item" data-answer="0">
+    <div class="quiz-q"><span class="qno">6</span><div>2026 年 7 月成立的世界人工智能合作组织，总部设于（　）</div></div>
+    <div class="quiz-type">单选</div>
+    <div class="quiz-opts">
+      <button class="quiz-opt" data-v="0"><span>A. 上海</span><span class="mark">✓</span></button>
+      <button class="quiz-opt" data-v="1"><span>B. 北京</span><span class="mark">✓</span></button>
+      <button class="quiz-opt" data-v="2"><span>C. 深圳</span><span class="mark">✓</span></button>
+      <button class="quiz-opt" data-v="3"><span>D. 杭州</span><span class="mark">✓</span></button>
+    </div>
+    <div class="quiz-ans" data-explain="世界人工智能合作组织是全球首个 AI 政府间国际组织，总部设上海，29 国签署协定成为创始成员，坚持向善普惠原则、支持全球南方。">解析：</div>
+    <button class="quiz-reset">重新作答</button>
+  </div>
+</section>
+
+<!-- ===== 历史归档 ===== -->
+<section id="archive">
+  <div class="sec-head">
+    <h2>历史归档</h2>
+    <span class="note">每日更新 · 旧期自动归档</span>
+  </div>
+  <p class="archive-note">归档保留往期时政整理，供考前回顾；归档内容可通过“热点整理下载”一并导出。</p>
+  <ul class="archive-list">
+    <li><span class="a-date">10.10</span><span class="a-title">第 1 期 · 五中全会定档 / 中美元首会晤 / 金砖会晤 / 国庆 77 周年 / 科技支出预算</span><span class="a-badge">最新</span></li>
+    <li><span class="a-date">10.05</span><span class="a-title">人权理事会通过无障碍建设决议（47 国共同提案）</span></li>
+    <li><span class="a-date">10.04</span><span class="a-title">杭州亚运会收官，中国队 169 金 89 银 83 铜</span></li>
+    <li><span class="a-date">10.01</span><span class="a-title">《求是》发表《加强普惠性、基础性、兜底性民生建设》</span></li>
+    <li><span class="a-date">09.30</span><span class="a-title">国庆 77 周年招待会，两大奇迹论述</span></li>
+  </ul>
+</section>
+
+</main>
+
+<!-- ===== 页脚 ===== -->
+<footer>
+  <div class="inner">
+    <div class="f-brand">考研政治 · 时政热点日报</div>
+    <p>本页内容依据官方公开报道整理，仅供考研备考学习使用；每日 07:10 自动更新。事实以官方发布为准，如与权威信源不一致，请以政府网站、新华社、人民日报等为准。</p>
+    <div class="f-src">
+      <a href="https://www.gov.cn/yaowen/liebiao/202609/content_7081642.htm" target="_blank" rel="noopener">五中全会·中国政府网</a>
+      <a href="https://www.gov.cn/yaowen/liebiao/202609/content_7080989.htm" target="_blank" rel="noopener">金砖会晤·中国政府网</a>
+      <a href="http://www.qstheory.cn/20260930/7393c466528c46c1becf2387bfeb806d/c.html" target="_blank" rel="noopener">国庆讲话·求是网</a>
+      <a href="https://www.gov.cn/zhuanti/2026qglh/2026zfgzbgjd/index.htm" target="_blank" rel="noopener">政府工作报告解读·中国政府网</a>
+      <a href="http://www.npc.gov.cn/npc/c2/c30834/202603/t20260316_453264.html" target="_blank" rel="noopener">“十五五”规划纲要·中国人大网</a>
+      <a href="https://www.gov.cn/yaowen/liebiao/202607/content_7075874.htm" target="_blank" rel="noopener">世界人工智能大会·中国政府网</a>
+      <a href="https://epaper.gmw.cn/gmrb/html/content/202604/28/content_12302.html" target="_blank" rel="noopener">医疗保障法草案·光明日报</a>
+      <a href="http://politics.people.com.cn/n1/2026/0211/c1024-40663441.html" target="_blank" rel="noopener">对台工作会议·人民网</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== 详情视图（左原文 · 右批注） ===== -->
+<div class="detail-overlay" id="detailOverlay" role="dialog" aria-modal="true">
+  <div class="detail-panel" id="detailPanel"></div>
+</div>
+
+<script src="data.js"></script>
+<script src="data-extra.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
